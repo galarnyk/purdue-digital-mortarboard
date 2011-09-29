@@ -1,5 +1,4 @@
 = Purdue Mortarboard =
-
 The Purdue Digital Mortarboard is a project to bring the mortarboards you see everywhere around Purdue's campus to an android device near you!
 
 = Google Coding Competition =
