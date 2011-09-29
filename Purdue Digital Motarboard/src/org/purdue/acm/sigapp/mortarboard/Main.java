@@ -1,4 +1,4 @@
-package purdue.sigapp;
+package org.purdue.acm.sigapp.mortarboard;
 
 import android.app.Activity;
 import android.os.Bundle;
