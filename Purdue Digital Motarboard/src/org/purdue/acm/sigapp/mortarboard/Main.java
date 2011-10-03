@@ -1,6 +1,7 @@
 package org.purdue.acm.sigapp.mortarboard;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -30,7 +31,8 @@ public class Main extends Activity {
     }
     
     private void showSettings() {
-    	
+    	Intent intent = new Intent(this, Settings.class);
+    	startActivity(intent);
     }
     
     private void showHelp() {
@@ -38,7 +40,8 @@ public class Main extends Activity {
     }
     
     public boolean onCreateOptionsMenu(Menu menu) {
-    	menu.add(0, SETTINGS, 0, "Settings");
+    	menu.add(0, R.id.help, 0, "Help");
+    	menu.add(0, R.id.settings, 0, "Settings");
     	return true;
     }
     

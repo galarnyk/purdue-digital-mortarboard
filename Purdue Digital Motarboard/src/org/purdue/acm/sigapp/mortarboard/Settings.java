@@ -13,7 +13,7 @@ public class Settings extends ListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings);
+        //setContentView(R.layout.settings);
         
         setListAdapter(new ArrayAdapter<String>(this, R.layout.settings_item, getResources().getStringArray(R.array.settings_types)));
         
