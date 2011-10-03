@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" format="integer" name="settings">0</item>
+    <item name="help" type="id" format="integer">1</item>
+    
+</resources>
