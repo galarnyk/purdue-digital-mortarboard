@@ -6,11 +6,11 @@ import java.util.Date;
 
 public class Event {
 
-	String name;
-	Date date;
-	String description;
-	String location;
-	Image picture;
+	public String name;
+	public Date date;
+	public String description;
+	public String location;
+	public Image picture;
 	
 	/*
 	 * Creates an event object.
