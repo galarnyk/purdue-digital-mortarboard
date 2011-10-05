@@ -12,7 +12,6 @@ public class JSONServlet extends HttpServlet {
 		
 		responseWriter = resp.getWriter();
 		
-		
 		// This is just an example JSON response. This doesn't touch the datastore at all.
 		resp.setContentType("application/json");
 		responseWriter.println("{");
