@@ -1,0 +1,1 @@
+Purdue social life and academic planner. ACM SIGAPP project for 2011-2012 Google competition.
